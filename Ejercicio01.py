@@ -6,5 +6,5 @@ asignatura = ""
 while asignatura != "no tengo mas":
     asignatura = input("Dime la asignatura: ")
     lista.append(asignatura)
-numero = (len(lista) - 1)
-print(lista[0:numero])
+lista.pop(len(lista) - 1)
+print(lista)
