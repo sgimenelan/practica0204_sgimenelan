@@ -7,6 +7,5 @@ while precios != "no hay mas":
     precios = input("Dime el precio ")
     lista.append(precios)
 lista.pop(len(lista) - 1)
-lista.sort()
-print(lista[0], "es el menor de todos")
-print(lista[len(lista)-1], "es el mayor de todos")
+print(min(lista), "es el menor de todos")
+print(max(lista), "es el mayor de todos")
