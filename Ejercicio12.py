@@ -6,5 +6,5 @@ numeros = list(input("Dime unos numeros separados por comas: "))
 while "," in numeros:
     numeros.remove(",")
 numeros = list(map(float, numeros))
-print("La medias es: ", statistics.mean(numeros))
+print("La media es: ", statistics.mean(numeros))
 print("La medias es: ", statistics.stdev(numeros))
