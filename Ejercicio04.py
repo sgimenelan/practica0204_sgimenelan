@@ -3,10 +3,9 @@
 #lista y los muestre por pantalla ordenados de menor a mayor.
 lista = []
 numero_ganador = ""
-while numero_ganador != "no hay mas":
+while len(lista) < 6:
     numero_ganador = input("Dime el numero: ")
     lista.append(numero_ganador)
-lista.pop(len(lista) - 1)
 lista.sort()
 print(lista)
 
