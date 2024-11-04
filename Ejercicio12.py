@@ -7,4 +7,4 @@ while "," in numeros:
     numeros.remove(",")
 numeros = list(map(float, numeros))
 print("La media es: ", statistics.mean(numeros))
-print("La medias es: ", statistics.stdev(numeros))
+print("La desviacion tipica: ", statistics.stdev(numeros))
